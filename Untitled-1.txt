@@ -1,15 +1,15 @@
 
--- Signup page
-  |-- email, name, password
-  |-- Register button
+-- Signup page _/
+  |-- email, name, password _/
+  |-- Register button _/
 
--- Login page
-  |-- email, password
-  |-- Login
+-- Login page _/
+  |-- email, password _/
+  |-- Login _/
 
--- Display items page
-  |-- List of items ( name, price, picture[optional] )
-  |-- Add to cart for each item
+-- Display items page _/
+  |-- List of items ( name, price, picture[optional] ) _/
+  |-- Add to cart for each item _/
 
 -- Display cart page
   |-- List of items in cart currently
@@ -23,9 +23,9 @@
 
 
 -- Admin section
-  |-- Add item page
-    |-- Enter (item name, item price, picture[optional])
-    |-- Save button
+  |-- Add item page _/
+    |-- Enter (item name, item price, picture[optional]) _/
+    |-- Save button _/
   
   |-- Orders page
     |-- List all recived orders
