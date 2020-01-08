@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  div(style="width: 350px; margin: 0 auto;")
+    form(method='POST' action='/signin')
+      div.form-group
+        input.form-control(name='email', placeholder='Enter email address')
+      div.form-group
+        input.form-control(type="password", name='password', placeholder='Enter password')
+      div.form-group(style="text-align: center")
+        button.btn.btn-primary(type="submit") Login
+      div.form-group
+        a(href='/signup') Create an account

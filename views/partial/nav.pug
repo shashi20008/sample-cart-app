@@ -1,0 +1,20 @@
+nav.navbar.navbar-expand-lg.navbar-light.bg-light
+  a.navbar-brand(href="#") My cart app
+  button.navbar-toggler(type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation")
+    span.navbar-toggler-icon
+
+  div#navbarSupportedContent.collapse.navbar-collapse
+    ul.navbar-nav.mr-auto
+      li.nav-item.active
+        a.nav-link(href="#") Home
+      li.nav-item
+        a.nav-link(href="#") Link
+      li.nav-item
+        a.nav-link(href="#") Link 2
+    div.my-2.my-lg-0
+      if loggedin === true
+        a.btn.btn-outline-success.my-2.my-sm-0(href="/signout") Logout
+      else
+        a.btn.btn-outline-success.my-2.my-sm-0(href="/signin") Signin
+  </div>
+</nav>

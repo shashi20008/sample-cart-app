@@ -1,0 +1,13 @@
+extends ../layout
+
+block content
+  div(style="width: 350px; margin: 0 auto;")
+    form(method='POST' action='/admin/add-item')
+      div.form-group
+        input.form-control(name='itemName', placeholder='Enter item name', required)
+      div.form-group
+        input.form-control(name='itemPrice', type="number" placeholder='Enter item price', required)
+      div.form-group
+        input.form-control(name='currencyCode', placeholder='Enter currency code' maxlength="3", required)
+      div.form-group(style="text-align: center")
+        button.btn.btn-primary(type="submit") Save item

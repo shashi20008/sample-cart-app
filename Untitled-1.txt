@@ -1,0 +1,32 @@
+
+-- Signup page
+  |-- email, name, password
+  |-- Register button
+
+-- Login page
+  |-- email, password
+  |-- Login
+
+-- Display items page
+  |-- List of items ( name, price, picture[optional] )
+  |-- Add to cart for each item
+
+-- Display cart page
+  |-- List of items in cart currently
+  |-- Delete from cart for each item
+  |-- Check button
+
+-- Checkout page
+  |-- Adress fields
+  |-- Total amount
+  |-- Pay button
+
+
+-- Admin section
+  |-- Add item page
+    |-- Enter (item name, item price, picture[optional])
+    |-- Save button
+  
+  |-- Orders page
+    |-- List all recived orders
+    |-- Mark order as processed
